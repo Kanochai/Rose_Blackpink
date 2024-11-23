@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Rose BLACKPINK photo gallery showcasing her best moments.">
+  <title>Rosé - Gallery</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 16px;
+      padding: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+
+<body>
+  <a href="#main-content" class="skip-link" tabindex="1">Skip to main content</a>
+
+  <div id="wrapper">
+    <!-- Header Section with Image -->
+    <header role="banner">
+      <div class="header-image" tabindex="2">
+        <img src="https://www.rosesarerosie.com/sites/g/files/g2000019111/files/2024-09/Mask%20Group%201%402x.png" 
+             alt="Rose BLACKPINK">
+      </div>
+      <div class="logo" tabindex="3">
+        <h1>Rosé</h1>
+        <p>A talented artist with a global presence.</p>
+      </div>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav aria-label="Main Navigation" tabindex="4">
+      <ul>
+        <li><a href="index.html" tabindex="5">Home</a></li>
+        <li><a href="music.html" tabindex="6">Music</a></li>
+        <li><a href="achievements.html" tabindex="7">Achievements</a></li>
+        <li><a href="gallery.html" tabindex="8">Gallery</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main Content Section -->
+    <main id="main-content" role="main">
+      <section class="gallery" tabindex="9">
+        <h2>Gallery</h2>
+        <p>Here are some beautiful moments captured of Rose BLACKPINK.</p>
+        <div>
+          <img src="image1.jpg" alt="Rose performing on stage" />
+          <img src="image2.jpg" alt="Rose in fashion shoot" />
+          <img src="https://mmc.tirto.id/image/otf/970x0/2024/11/20/number-one-girl-rose-blackpink_ratio-16x9.jpg" alt="Rose number one girl" />
+          <img src="https://apicms.thestar.com.my/uploads/images/2024/10/21/thumbs/550/2976751.webp" alt="Rose with BLACKPINK" />
+          <img src="image3.jpg" alt="Rose with BLACKPINK" />
+          <img src="image3.jpg" alt="Rose with BLACKPINK" />
+          <img src="image3.jpg" alt="Rose with BLACKPINK" />
+          <img src="image3.jpg" alt="Rose with BLACKPINK" />
+
+          <!-- Add more images here -->
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Section with Social and Music Links -->
+    <footer tabindex="13">
+      <div class="social-links" tabindex="13">
+        <h3>Connect with Rosé</h3>
+        <a href="https://www.instagram.com/roses_are_rosie/" target="_blank" tabindex="14">Instagram</a>
+        <a href="https://www.youtube.com/@roses_are_rosie" target="_blank" tabindex="15">YouTube</a>
+        <a href="https://open.spotify.com/artist/3eVa5w3URK5duf6eyVDbu9" target="_blank" tabindex="16">Spotify</a>
+        <a href="https://music.apple.com/us/artist/ros%C3%A9/1406242696" target="_blank" tabindex="17">Apple Music</a>
+      </div>
+      <p tabindex="19">&copy; 2024 Rose BLACKPINK Fan Page. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
